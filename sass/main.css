@@ -48,4 +48,103 @@ body {
 
 main {
   flex: 1;
+}
+
+.tsText {
+  margin: 2%;
+}
+
+#img1Ts {
+  width: 100%;
+  height: 400px;
+}
+
+#img2Ts {
+  width: 30%;
+  height: auto;
+  position: relative;
+  float: right;
+  margin-right: 1%;
+  margin-top: 9%;
+  margin-bottom: 9%;
+}
+
+#pTs {
+  margin-top: 2%;
+  width: 100%;
+  height: auto;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.mainC {
+  background-color: #1e1e1e;
+  color: white;
+  margin: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+.form {
+  width: 80%;
+  margin: 2%;
+}
+
+iframe {
+  width: 98%;
+}
+
+.mainSer {
+  background-color: #1e1e1e;
+  color: white;
+  margin: 2%;
+}
+.mainSer div {
+  margin: 3%;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .mainTs {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: white;
+    padding: 2%;
+  }
+  #img2Ts {
+    margin-right: 10%;
+    margin-top: 10%;
+  }
+  .mainSer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .mainC {
+    display: block;
+  }
+}
+footer {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e1e;
+  color: white;
+  padding-left: 1%;
+  padding-right: 1%;
+  width: 100%;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+header img {
+  width: 25px;
 }/*# sourceMappingURL=main.css.map */

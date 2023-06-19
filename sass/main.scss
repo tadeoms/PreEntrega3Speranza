@@ -1,2 +1,13 @@
 
 @import 'reset';
+@import 'variables';
+@import 'mainIndex';
+@import 'mainContacto';
+@import 'mainServicios';
+@import 'mainSobreMi';
+@import 'responsive';
+@import 'footer';
+html {
+    font-family: 'Roboto', sans-serif;
+}
+header img {width: 25px;}

@@ -1,0 +1,17 @@
+@import 'variables';
+.mainC { 
+    background-color: $bc; 
+    color: $c; 
+    margin: $m; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+   
+.form {
+    width: 80%;
+    margin: $m;
+}
+iframe {
+    width: 98%;
+}

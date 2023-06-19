@@ -1,0 +1,21 @@
+@media (min-width: 768px) {
+    .mainTs {
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                background-color: white;
+                padding: 2%;
+            }
+    #img2Ts { 
+                margin-right: 10%;
+                margin-top: 10%;
+            } 
+    .mainSer {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+}
+@media (max-width: 768px) {
+    .mainC{
+        display: block;
+    }
+}
