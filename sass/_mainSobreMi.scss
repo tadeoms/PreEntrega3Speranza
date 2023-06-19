@@ -1,0 +1,21 @@
+@import 'variables';
+.mainSo { 
+    background-color:$bc; 
+    color: $c; 
+    margin:$m;
+    text-align: center;
+}
+#img1So {
+    width: 98%;
+}
+ul {
+    text-align: start;
+}
+#img2So {
+    width: 98%;
+    height: 20%;
+}
+button {
+    margin-bottom: 5%;
+    margin-top: 3%;
+}

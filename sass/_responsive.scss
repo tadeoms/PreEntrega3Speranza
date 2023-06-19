@@ -13,6 +13,17 @@
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
             }
+    .mainSo {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+    #img2So {
+                height: auto;
+            }
+    .mainP {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
 }
 @media (max-width: 768px) {
     .mainC{

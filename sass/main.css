@@ -108,6 +108,42 @@ iframe {
   text-align: center;
 }
 
+.mainSo {
+  background-color: #1e1e1e;
+  color: white;
+  margin: 2%;
+  text-align: center;
+}
+
+#img1So {
+  width: 98%;
+}
+
+ul {
+  text-align: start;
+}
+
+#img2So {
+  width: 98%;
+  height: 20%;
+}
+
+button {
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+.mainP {
+  background-color: #1e1e1e;
+  color: white;
+  margin: 2%;
+  text-align: center;
+}
+.mainP img {
+  margin: 3%;
+  width: 90%;
+}
+
 @media (min-width: 768px) {
   .mainTs {
     display: grid;
@@ -122,6 +158,17 @@ iframe {
   .mainSer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .mainSo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #img2So {
+    height: auto;
+  }
+  .mainP {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media (max-width: 768px) {
